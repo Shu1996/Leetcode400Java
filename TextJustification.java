@@ -1,5 +1,8 @@
 package leetcode;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class TextJustification {
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> res = new LinkedList<>();
